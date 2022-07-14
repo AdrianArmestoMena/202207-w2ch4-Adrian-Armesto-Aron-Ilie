@@ -1,4 +1,4 @@
-const SkylabArray = require("./SkylabArray");
+/* const SkylabArray = require("./SkylabArray");
 
 describe("Given the function SkylabArray.constructor", () => {
   describe("When it's called and it recieved 'Marta', 'Luis', 'Pere'", () => {
@@ -33,4 +33,4 @@ describe("Given the function SkylabArray.constructor", () => {
       expect(receivedResult).toEqual(expectedResult);
     });
   });
-});
+}); */
