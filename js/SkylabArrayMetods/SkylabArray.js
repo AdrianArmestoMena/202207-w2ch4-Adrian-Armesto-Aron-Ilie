@@ -10,6 +10,3 @@ class SkylabArray {
 }
 
 module.exports = SkylabArray;
-
-const names = new SkylabArray("Marta", "Luis", "Pere");
-console.log(names);
