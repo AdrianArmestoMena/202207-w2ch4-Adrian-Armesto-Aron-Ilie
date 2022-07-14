@@ -10,6 +10,7 @@ module.exports = {
     ecmaVersion: "latest",
   },
   rules: {
+    "no-restricted-syntax": "off",
     "no-plusplus": "off",
     "lines-between-class-members": [
       "error",

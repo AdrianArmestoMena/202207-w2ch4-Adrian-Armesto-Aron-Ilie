@@ -5,8 +5,8 @@ class SkylabArray {
     for (const element of values) {
       this[index] = element;
       index++;
+      this.lenght = Number(index);
     }
   }
 }
-
 module.exports = SkylabArray;
