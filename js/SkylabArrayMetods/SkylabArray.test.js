@@ -1,4 +1,4 @@
-/* const SkylabArray = require("./SkylabArray");
+const SkylabArray = require("./SkylabArray");
 
 describe("Given the function SkylabArray.constructor", () => {
   describe("When it's called and it recieved 'Marta', 'Luis', 'Pere'", () => {
@@ -6,7 +6,7 @@ describe("Given the function SkylabArray.constructor", () => {
       const fisrtName = "Marta";
       const secondName = "Luis";
       const thirdName = "Pere";
-      const expectedResult = { 0: "Marta", 1: "Luis", 2: "Pere" };
+      const expectedResult = { 0: "Marta", 1: "Luis", 2: "Pere", lenght: 3 };
 
       const receivedResult = new SkylabArray(fisrtName, secondName, thirdName);
 
@@ -21,7 +21,7 @@ describe("Given the function SkylabArray.constructor", () => {
       const secondNumber = 8;
       const thirdNumber = 10;
       const forthNumber = 2;
-      const expectedResult = { 0: 3, 1: 8, 2: 10, 3: 2 };
+      const expectedResult = { 0: 3, 1: 8, 2: 10, 3: 2, lenght: 4 };
 
       const receivedResult = new SkylabArray(
         fisrtNumber,
@@ -33,4 +33,4 @@ describe("Given the function SkylabArray.constructor", () => {
       expect(receivedResult).toEqual(expectedResult);
     });
   });
-}); */
+});
