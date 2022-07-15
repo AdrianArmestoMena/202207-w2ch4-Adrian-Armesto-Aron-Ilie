@@ -24,5 +24,11 @@ class SkylabArray {
     }
     return false;
   }
+
+  push(adElement) {
+    const nextindex = Number(this.lenght - 1);
+    this[nextindex] = adElement;
+    this.lenght = Number(this.lenght) + 1;
+  }
 }
 module.exports = SkylabArray;
